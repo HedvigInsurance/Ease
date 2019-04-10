@@ -1,3 +1,11 @@
+//
+//  Easable.swift
+//  Ease
+//
+//  Created by Gustaf Gunér on 2019-04-10.
+//  Copyright © 2019 Gustaf Gunér. All rights reserved.
+//
+
 import Foundation
 import SceneKit.SceneKitTypes
 

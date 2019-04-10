@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A70F68CC225E02F800F7C48F /* Ease.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F68CB225E02F800F7C48F /* Ease.swift */; };
+		A70F68CF225E032600F7C48F /* Easable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F68CE225E032600F7C48F /* Easable.swift */; };
+		A70F68D2225E035100F7C48F /* CoreGraphics+Easable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F68D1225E035100F7C48F /* CoreGraphics+Easable.swift */; };
+		A70F68D4225E036400F7C48F /* Foundation+Easable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F68D3225E036400F7C48F /* Foundation+Easable.swift */; };
+		A70F68D6225E037900F7C48F /* SceneKit+Easable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F68D5225E037900F7C48F /* SceneKit+Easable.swift */; };
+		A70F68D8225E039600F7C48F /* Projection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F68D7225E039600F7C48F /* Projection.swift */; };
+		A70F68DA225E03AA00F7C48F /* EaseObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F68D9225E03AA00F7C48F /* EaseObserver.swift */; };
+		A70F68DC225E03BC00F7C48F /* EaseDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F68DB225E03BC00F7C48F /* EaseDisposable.swift */; };
+		A7BABDF8225E00CA00A26AFB /* Ease.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BABDF6225E00CA00A26AFB /* Ease.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A70F68CB225E02F800F7C48F /* Ease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ease.swift; sourceTree = "<group>"; };
+		A70F68CE225E032600F7C48F /* Easable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easable.swift; sourceTree = "<group>"; };
+		A70F68D1225E035100F7C48F /* CoreGraphics+Easable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreGraphics+Easable.swift"; sourceTree = "<group>"; };
+		A70F68D3225E036400F7C48F /* Foundation+Easable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+Easable.swift"; sourceTree = "<group>"; };
+		A70F68D5225E037900F7C48F /* SceneKit+Easable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SceneKit+Easable.swift"; sourceTree = "<group>"; };
+		A70F68D7225E039600F7C48F /* Projection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projection.swift; sourceTree = "<group>"; };
+		A70F68D9225E03AA00F7C48F /* EaseObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EaseObserver.swift; sourceTree = "<group>"; };
+		A70F68DB225E03BC00F7C48F /* EaseDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EaseDisposable.swift; sourceTree = "<group>"; };
+		A7BABDF3225E00CA00A26AFB /* Ease.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ease.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BABDF6225E00CA00A26AFB /* Ease.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ease.h; sourceTree = "<group>"; };
+		A7BABDF7225E00CA00A26AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7BABDF0225E00CA00A26AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A70F68CD225E031900F7C48F /* Easable */ = {
+			isa = PBXGroup;
+			children = (
+				A70F68D0225E033300F7C48F /* Extensions */,
+				A70F68CE225E032600F7C48F /* Easable.swift */,
+			);
+			path = Easable;
+			sourceTree = "<group>";
+		};
+		A70F68D0225E033300F7C48F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A70F68D1225E035100F7C48F /* CoreGraphics+Easable.swift */,
+				A70F68D3225E036400F7C48F /* Foundation+Easable.swift */,
+				A70F68D5225E037900F7C48F /* SceneKit+Easable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A7BABDE9225E00CA00A26AFB = {
+			isa = PBXGroup;
+			children = (
+				A7BABDF5225E00CA00A26AFB /* Ease */,
+				A7BABDF4225E00CA00A26AFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7BABDF4225E00CA00A26AFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7BABDF3225E00CA00A26AFB /* Ease.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7BABDF5225E00CA00A26AFB /* Ease */ = {
+			isa = PBXGroup;
+			children = (
+				A70F68CD225E031900F7C48F /* Easable */,
+				A7BABDF6225E00CA00A26AFB /* Ease.h */,
+				A7BABDF7225E00CA00A26AFB /* Info.plist */,
+				A70F68CB225E02F800F7C48F /* Ease.swift */,
+				A70F68D7225E039600F7C48F /* Projection.swift */,
+				A70F68D9225E03AA00F7C48F /* EaseObserver.swift */,
+				A70F68DB225E03BC00F7C48F /* EaseDisposable.swift */,
+			);
+			path = Ease;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A7BABDEE225E00CA00A26AFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BABDF8225E00CA00A26AFB /* Ease.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A7BABDF2225E00CA00A26AFB /* Ease */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BABDFB225E00CA00A26AFB /* Build configuration list for PBXNativeTarget "Ease" */;
+			buildPhases = (
+				A7BABDEE225E00CA00A26AFB /* Headers */,
+				A7BABDEF225E00CA00A26AFB /* Sources */,
+				A7BABDF0225E00CA00A26AFB /* Frameworks */,
+				A7BABDF1225E00CA00A26AFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ease;
+			productName = Ease;
+			productReference = A7BABDF3225E00CA00A26AFB /* Ease.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7BABDEA225E00CA00A26AFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Gustaf Gunér";
+				TargetAttributes = {
+					A7BABDF2225E00CA00A26AFB = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = A7BABDED225E00CA00A26AFB /* Build configuration list for PBXProject "Ease" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7BABDE9225E00CA00A26AFB;
+			productRefGroup = A7BABDF4225E00CA00A26AFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7BABDF2225E00CA00A26AFB /* Ease */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7BABDF1225E00CA00A26AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7BABDEF225E00CA00A26AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A70F68DA225E03AA00F7C48F /* EaseObserver.swift in Sources */,
+				A70F68CC225E02F800F7C48F /* Ease.swift in Sources */,
+				A70F68D6225E037900F7C48F /* SceneKit+Easable.swift in Sources */,
+				A70F68DC225E03BC00F7C48F /* EaseDisposable.swift in Sources */,
+				A70F68D8225E039600F7C48F /* Projection.swift in Sources */,
+				A70F68CF225E032600F7C48F /* Easable.swift in Sources */,
+				A70F68D4225E036400F7C48F /* Foundation+Easable.swift in Sources */,
+				A70F68D2225E035100F7C48F /* CoreGraphics+Easable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7BABDF9225E00CA00A26AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7BABDFA225E00CA00A26AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7BABDFC225E00CA00A26AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6GVN9KUQ4D;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Ease/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hedvig.Ease;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7BABDFD225E00CA00A26AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6GVN9KUQ4D;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Ease/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hedvig.Ease;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7BABDED225E00CA00A26AFB /* Build configuration list for PBXProject "Ease" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BABDF9225E00CA00A26AFB /* Debug */,
+				A7BABDFA225E00CA00A26AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BABDFB225E00CA00A26AFB /* Build configuration list for PBXNativeTarget "Ease" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BABDFC225E00CA00A26AFB /* Debug */,
+				A7BABDFD225E00CA00A26AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7BABDEA225E00CA00A26AFB /* Project object */;
+}
