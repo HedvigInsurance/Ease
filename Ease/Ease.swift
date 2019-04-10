@@ -5,10 +5,7 @@
 //  Created by Gustaf Gunér on 2019-04-10.
 //  Copyright © 2019 Gustaf Gunér. All rights reserved.
 //
-
 import Foundation
-import QuartzCore
-import Flow
 
 public final class Ease<T: Easeable> {
     
@@ -88,19 +85,21 @@ public final class Ease<T: Easeable> {
         self.manualUpdate = manualUpdate
     }
     
-    public func addSpring(_ spring: Spring, closure: @escaping Closure) -> Disposable {
+    public func addSpring(_ spring: Spring, closure: @escaping Closure) -> EaseDisposable {
         return addSpring(tension: spring.tension, damping: spring.damping, mass: spring.mass, closure: closure)
     }
     
-    public func addSpring(tension: T.F, damping: T.F, mass: T.F, closure: @escaping Closure) -> Disposable {
+    public func addSpring(tension: T.F, damping: T.F, mass: T.F, closure: @escaping Closure) -> EaseDisposable {
         let key = nextKey
         
         observers[key] = EaseObserver(value: value, tension: tension, damping: damping, mass: mass, closure: closure)
         closure(value)
         
-        return Disposer { [weak self] in
+        let disposable = EaseDisposable { [weak self] in
             self?.observers[key] = nil
         }
+        
+        return disposable
     }
     
     public func removeAllObservers() {
