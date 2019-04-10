@@ -16,6 +16,7 @@
 		A70F68DA225E03AA00F7C48F /* EaseObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F68D9225E03AA00F7C48F /* EaseObserver.swift */; };
 		A70F68DC225E03BC00F7C48F /* EaseDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F68DB225E03BC00F7C48F /* EaseDisposable.swift */; };
 		A7BABDF8225E00CA00A26AFB /* Ease.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BABDF6225E00CA00A26AFB /* Ease.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7DC3A9B225E17E900785714 /* Flow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DC3A9A225E17E900785714 /* Flow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A7BABDF3225E00CA00A26AFB /* Ease.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ease.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BABDF6225E00CA00A26AFB /* Ease.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ease.h; sourceTree = "<group>"; };
 		A7BABDF7225E00CA00A26AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7DC3A9A225E17E900785714 /* Flow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flow.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7DC3A9B225E17E900785714 /* Flow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +70,7 @@
 			children = (
 				A7BABDF5225E00CA00A26AFB /* Ease */,
 				A7BABDF4225E00CA00A26AFB /* Products */,
+				A7DC3A95225E140F00785714 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +94,14 @@
 				A70F68DB225E03BC00F7C48F /* EaseDisposable.swift */,
 			);
 			path = Ease;
+			sourceTree = "<group>";
+		};
+		A7DC3A95225E140F00785714 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC3A9A225E17E900785714 /* Flow.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +330,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Ease/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -346,6 +362,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Ease/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
