@@ -16,7 +16,7 @@
 		A70F68DA225E03AA00F7C48F /* EaseObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F68D9225E03AA00F7C48F /* EaseObserver.swift */; };
 		A70F68DC225E03BC00F7C48F /* EaseDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70F68DB225E03BC00F7C48F /* EaseDisposable.swift */; };
 		A7BABDF8225E00CA00A26AFB /* Ease.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BABDF6225E00CA00A26AFB /* Ease.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7DC3A9B225E17E900785714 /* Flow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DC3A9A225E17E900785714 /* Flow.framework */; };
+		EB11E94B2276E46700D95365 /* Flow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB11E94A2276E46700D95365 /* Flow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +32,7 @@
 		A7BABDF6225E00CA00A26AFB /* Ease.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ease.h; sourceTree = "<group>"; };
 		A7BABDF7225E00CA00A26AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7DC3A9A225E17E900785714 /* Flow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flow.framework; sourceTree = "<group>"; };
+		EB11E94A2276E46700D95365 /* Flow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flow.framework; path = Carthage/Build/iOS/Flow.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7DC3A9B225E17E900785714 /* Flow.framework in Frameworks */,
+				EB11E94B2276E46700D95365 /* Flow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +100,7 @@
 		A7DC3A95225E140F00785714 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EB11E94A2276E46700D95365 /* Flow.framework */,
 				A7DC3A9A225E17E900785714 /* Flow.framework */,
 			);
 			name = Frameworks;
@@ -333,6 +335,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Ease/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -346,7 +349,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -365,6 +368,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Ease/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -377,7 +381,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hedvig.Ease;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
