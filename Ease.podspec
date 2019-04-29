@@ -11,5 +11,5 @@ s.license            = { :type => 'MIT', :file => 'LICENSE' }
 s.author             = { 'Robert-Hein Hooijmans' => 'rh.hooijmans@gmail.com' }
 s.social_media_url   = 'https://twitter.com/roberthein'
 s.source             = { :git => 'https://github.com/roberthein/Ease.git', :tag => s.version.to_s }
-s.source_files       = 'Ease/Classes/**/*.{swift}'
+s.source_files       = 'Ease/**/*.{swift}'
 end
