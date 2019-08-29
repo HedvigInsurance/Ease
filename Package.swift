@@ -17,6 +17,6 @@ let package = Package(
         .target(
             name: "Ease",
             dependencies: ["Flow"],
-            path: "Sources/ease"),
+            path: "Ease"),
     ]
 )
