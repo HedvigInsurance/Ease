@@ -8,10 +8,11 @@ let package = Package(
     products: [
         .library(
             name: "Ease",
+            type: .dynamic,
             targets: ["Ease"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/hedviginsurance/flow", .branch("master")),
+        .package(url: "https://github.com/hedviginsurance/flow", .upToNextMajor(from: "1.8.6")),
     ],
     targets: [
         .target(
