@@ -11,7 +11,7 @@ let package = Package(
             targets: ["Ease"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/hedviginsurance/flow", .branch("master")),
+        .package(url: "https://github.com/hedviginsurance/Flow", .branch("master")),
     ],
     targets: [
         .target(

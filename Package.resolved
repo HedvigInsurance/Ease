@@ -3,7 +3,7 @@
     "pins": [
       {
         "package": "Flow",
-        "repositoryURL": "https://github.com/hedviginsurance/flow",
+        "repositoryURL": "https://github.com/hedviginsurance/Flow",
         "state": {
           "branch": "master",
           "revision": "ae8293bdd84c56680ac52e0fbb89a8add69bae4f",
