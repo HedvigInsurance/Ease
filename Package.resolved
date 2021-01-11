@@ -5,9 +5,9 @@
         "package": "Flow",
         "repositoryURL": "https://github.com/hedviginsurance/flow",
         "state": {
-          "branch": null,
-          "revision": "7f25f935456e35599026501c6ba941b5ac8c7faa",
-          "version": "1.8.6"
+          "branch": "master",
+          "revision": "ae8293bdd84c56680ac52e0fbb89a8add69bae4f",
+          "version": null
         }
       }
     ]
